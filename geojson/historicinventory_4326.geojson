@@ -1,64 +1,974 @@
 {
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-                                                                                
-"features": [
-{ "type": "Feature", "properties": { "CAT": 1, "SURVEYNO": 101, "NAME": "LMS Classroom Bldg", "HISTNAME": null, "ADDRESS": "723 Camano Ave" }, "geometry": { "type": "Point", "coordinates": [ -122.402974833870033, 48.034611596414379 ] } },
-{ "type": "Feature", "properties": { "CAT": 2, "SURVEYNO": 102, "NAME": "LMS Library", "HISTNAME": "Langley High School", "ADDRESS": "723 Camano Ave" }, "geometry": { "type": "Point", "coordinates": [ -122.403078153623213, 48.035200228105744 ] } },
-{ "type": "Feature", "properties": { "CAT": 3, "SURVEYNO": 103, "NAME": "LMS Auditorium", "HISTNAME": null, "ADDRESS": "723 Camano Ave" }, "geometry": { "type": "Point", "coordinates": [ -122.403105866252133, 48.035611873368481 ] } },
-{ "type": "Feature", "properties": { "CAT": 4, "SURVEYNO": 104, "NAME": "LMS Spencer Building", "HISTNAME": null, "ADDRESS": "723 Camano Ave" }, "geometry": { "type": "Point", "coordinates": [ -122.403624867811033, 48.035514578414869 ] } },
-{ "type": "Feature", "properties": { "CAT": 5, "SURVEYNO": 105, "NAME": "LMS Gymnasium", "HISTNAME": null, "ADDRESS": "723 Camano Ave" }, "geometry": { "type": "Point", "coordinates": [ -122.403564896936103, 48.034985341061528 ] } },
-{ "type": "Feature", "properties": { "CAT": 6, "SURVEYNO": 106, "NAME": "Pole Building", "HISTNAME": null, "ADDRESS": "819 Camano Ave" }, "geometry": { "type": "Point", "coordinates": [ -122.40267448808882, 48.032693547887 ] } },
-{ "type": "Feature", "properties": { "CAT": 7, "SURVEYNO": 107, "NAME": "Nymbol's Secret Garden", "HISTNAME": "Christian Science Church", "ADDRESS": "101 First St" }, "geometry": { "type": "Point", "coordinates": [ -122.406911422309719, 48.040274780784131 ] } },
-{ "type": "Feature", "properties": { "CAT": 8, "SURVEYNO": 108, "NAME": "Village Pizzeria", "HISTNAME": "Lee's Drug Store", "ADDRESS": "106 First St" }, "geometry": { "type": "Point", "coordinates": [ -122.407736747803639, 48.040776604441504 ] } },
-{ "type": "Feature", "properties": { "CAT": 9, "SURVEYNO": 109, "NAME": "Island Design", "HISTNAME": null, "ADDRESS": "111 First St" }, "geometry": { "type": "Point", "coordinates": [ -122.407860151895377, 48.040561565402001 ] } },
-{ "type": "Feature", "properties": { "CAT": 10, "SURVEYNO": 110, "NAME": "Cafe Langley", "HISTNAME": "Tiemeyer Bakery", "ADDRESS": "113 First St" }, "geometry": { "type": "Point", "coordinates": [ -122.407969064421906, 48.040577748514693 ] } },
-{ "type": "Feature", "properties": { "CAT": 11, "SURVEYNO": 111, "NAME": "Star Store\/ Primavera Build", "HISTNAME": null, "ADDRESS": "201 First St" }, "geometry": { "type": "Point", "coordinates": [ -122.408253381317849, 48.040632813549394 ] } },
-{ "type": "Feature", "properties": { "CAT": 12, "SURVEYNO": 112, "NAME": "Moonraker\/ Roberta", "HISTNAME": null, "ADDRESS": "207-209 First St" }, "geometry": { "type": "Point", "coordinates": [ -122.408572225172634, 48.04063695202678 ] } },
-{ "type": "Feature", "properties": { "CAT": 13, "SURVEYNO": 113, "NAME": "Heron", "HISTNAME": null, "ADDRESS": "211 First St" }, "geometry": { "type": "Point", "coordinates": [ -122.40877021948917, 48.040621587986649 ] } },
-{ "type": "Feature", "properties": { "CAT": 14, "SURVEYNO": 114, "NAME": "Mykins", "HISTNAME": "Livery Stable", "ADDRESS": "212-214 First St" }, "geometry": { "type": "Point", "coordinates": [ -122.408623448147779, 48.040925138480567 ] } },
-{ "type": "Feature", "properties": { "CAT": 15, "SURVEYNO": 115, "NAME": "Celtic Viking", "HISTNAME": "Luhn Building", "ADDRESS": "216 First St" }, "geometry": { "type": "Point", "coordinates": [ -122.408749224465211, 48.040917023461716 ] } },
-{ "type": "Feature", "properties": { "CAT": 16, "SURVEYNO": 116, "NAME": "Clyde Theater", "HISTNAME": null, "ADDRESS": "217 First St" }, "geometry": { "type": "Point", "coordinates": [ -122.409015860317254, 48.040607118122587 ] } },
-{ "type": "Feature", "properties": { "CAT": 17, "SURVEYNO": 117, "NAME": "Cascadia Nauticals", "HISTNAME": null, "ADDRESS": "220 First St" }, "geometry": { "type": "Point", "coordinates": [ -122.408877371217784, 48.040961330534017 ] } },
-{ "type": "Feature", "properties": { "CAT": 18, "SURVEYNO": 118, "NAME": "Dog House Tavern", "HISTNAME": "Olympic Club", "ADDRESS": "230 First St" }, "geometry": { "type": "Point", "coordinates": [ -122.409140586955004, 48.041040294935335 ] } },
-{ "type": "Feature", "properties": { "CAT": 19, "SURVEYNO": 119, "NAME": "In the Country", "HISTNAME": "Niles Hous", "ADDRESS": "315 First St" }, "geometry": { "type": "Point", "coordinates": [ -122.410211307594096, 48.040659079687224 ] } },
-{ "type": "Feature", "properties": { "CAT": 20, "SURVEYNO": 120, "NAME": "Lowey\/ Sundquist House", "HISTNAME": null, "ADDRESS": "455 First St" }, "geometry": { "type": "Point", "coordinates": [ -122.412473323993225, 48.041074989515003 ] } },
-{ "type": "Feature", "properties": { "CAT": 21, "SURVEYNO": 121, "NAME": "Faith Bushby House", "HISTNAME": "Howard House", "ADDRESS": "475 First St" }, "geometry": { "type": "Point", "coordinates": [ -122.411929392578443, 48.040710096986103 ] } },
-{ "type": "Feature", "properties": { "CAT": 22, "SURVEYNO": 122, "NAME": "Maine Stay", "HISTNAME": "Howard House", "ADDRESS": "619 First St" }, "geometry": { "type": "Point", "coordinates": [ -122.413456002402327, 48.040695986016068 ] } },
-{ "type": "Feature", "properties": { "CAT": 23, "SURVEYNO": 123, "NAME": "AA House", "HISTNAME": null, "ADDRESS": "432 Second St" }, "geometry": { "type": "Point", "coordinates": [ -122.411984222246744, 48.040203680581833 ] } },
-{ "type": "Feature", "properties": { "CAT": 24, "SURVEYNO": 124, "NAME": "Living Green", "HISTNAME": "Burk's Lumber Yard", "ADDRESS": "630 Second St" }, "geometry": { "type": "Point", "coordinates": [ -122.414643393684912, 48.040299724193488 ] } },
-{ "type": "Feature", "properties": { "CAT": 25, "SURVEYNO": 125, "NAME": null, "HISTNAME": "Ethel Manly House", "ADDRESS": null }, "geometry": { "type": "Point", "coordinates": [ -122.417764343202279, 48.039015735503689 ] } },
-{ "type": "Feature", "properties": { "CAT": 26, "SURVEYNO": 126, "NAME": "Min Dexter House", "HISTNAME": null, "ADDRESS": null }, "geometry": { "type": "Point", "coordinates": [ -122.418004394089081, 48.038008267263379 ] } },
-{ "type": "Feature", "properties": { "CAT": 28, "SURVEYNO": 128, "NAME": null, "HISTNAME": "Voelker House", "ADDRESS": "715 Third St" }, "geometry": { "type": "Point", "coordinates": [ -122.414730174972576, 48.038935444426428 ] } },
-{ "type": "Feature", "properties": { "CAT": 29, "SURVEYNO": 129, "NAME": "Dave Schmidt House", "HISTNAME": null, "ADDRESS": "834 Third St" }, "geometry": { "type": "Point", "coordinates": [ -122.416828361856119, 48.039393422559236 ] } },
-{ "type": "Feature", "properties": { "CAT": 30, "SURVEYNO": 130, "NAME": null, "HISTNAME": "Albert Melsen House", "ADDRESS": "415 Fourth St" }, "geometry": { "type": "Point", "coordinates": [ -122.410415117987128, 48.03809890126211 ] } },
-{ "type": "Feature", "properties": { "CAT": 31, "SURVEYNO": 131, "NAME": "Wahl House", "HISTNAME": null, "ADDRESS": "416 Fourth St" }, "geometry": { "type": "Point", "coordinates": [ -122.410500590762496, 48.038504209008842 ] } },
-{ "type": "Feature", "properties": { "CAT": 32, "SURVEYNO": 132, "NAME": "Re\/ John Alsip House", "HISTNAME": null, "ADDRESS": "107 Sixth St" }, "geometry": { "type": "Point", "coordinates": [ -122.405295819788947, 48.036299240959416 ] } },
-{ "type": "Feature", "properties": { "CAT": 33, "SURVEYNO": 133, "NAME": "Country Cottage B&B", "HISTNAME": "George Beane House", "ADDRESS": "215 Sixth St" }, "geometry": { "type": "Point", "coordinates": [ -122.407885651674761, 48.036175248730785 ] } },
-{ "type": "Feature", "properties": { "CAT": 34, "SURVEYNO": 134, "NAME": "Fossek House", "HISTNAME": "Lenz\/ Fossek House", "ADDRESS": "510 Sixth St" }, "geometry": { "type": "Point", "coordinates": [ -122.41393698825776, 48.037552274023945 ] } },
-{ "type": "Feature", "properties": { "CAT": 35, "SURVEYNO": 135, "NAME": "Fossek Barn", "HISTNAME": "Lenz\/ Fossek Barn", "ADDRESS": "431 Sixth St" }, "geometry": { "type": "Point", "coordinates": [ -122.412675796693051, 48.035438084500647 ] } },
-{ "type": "Feature", "properties": { "CAT": 36, "SURVEYNO": 136, "NAME": "Al Anderson House", "HISTNAME": null, "ADDRESS": "305 Sixth St" }, "geometry": { "type": "Point", "coordinates": [ -122.410094752882102, 48.03623419925983 ] } },
-{ "type": "Feature", "properties": { "CAT": 37, "SURVEYNO": 137, "NAME": "Lowry-James", "HISTNAME": "Langley State Bank", "ADDRESS": "101 Anthes Ave" }, "geometry": { "type": "Point", "coordinates": [ -122.409623377727485, 48.04069722302966 ] } },
-{ "type": "Feature", "properties": { "CAT": 38, "SURVEYNO": 138, "NAME": "Whidbey Island Antiques", "HISTNAME": null, "ADDRESS": "105 Anthes Ave" }, "geometry": { "type": "Point", "coordinates": [ -122.409642024512962, 48.040488853504861 ] } },
-{ "type": "Feature", "properties": { "CAT": 39, "SURVEYNO": 139, "NAME": "Knitty Purls", "HISTNAME": null, "ADDRESS": "111 Anthes Ave" }, "geometry": { "type": "Point", "coordinates": [ -122.409595467667373, 48.04036710222055 ] } },
-{ "type": "Feature", "properties": { "CAT": 40, "SURVEYNO": 140, "NAME": "Joe's Island Music", "HISTNAME": "Langley Town Hall", "ADDRESS": "112 Anthes Ave" }, "geometry": { "type": "Point", "coordinates": [ -122.409129152718734, 48.040350821777942 ] } },
-{ "type": "Feature", "properties": { "CAT": 41, "SURVEYNO": 141, "NAME": null, "HISTNAME": "Whidbey Island Antiques", "ADDRESS": "115 Anthes Ave" }, "geometry": { "type": "Point", "coordinates": [ -122.409611754948045, 48.040216531202141 ] } },
-{ "type": "Feature", "properties": { "CAT": 42, "SURVEYNO": 142, "NAME": null, "HISTNAME": "Funeral Home", "ADDRESS": "207 Anthes Ave" }, "geometry": { "type": "Point", "coordinates": [ -122.409617424104013, 48.039674905884887 ] } },
-{ "type": "Feature", "properties": { "CAT": 43, "SURVEYNO": 143, "NAME": "Ben Breedlove House", "HISTNAME": "Lovejoy House", "ADDRESS": "402 Anthes Ave" }, "geometry": { "type": "Point", "coordinates": [ -122.409338016156084, 48.038052690380965 ] } },
-{ "type": "Feature", "properties": { "CAT": 44, "SURVEYNO": 144, "NAME": "Langley Methodist Church", "HISTNAME": null, "ADDRESS": "301 Anthes Ave" }, "geometry": { "type": "Point", "coordinates": [ -122.409799641931443, 48.038951284758546 ] } },
-{ "type": "Feature", "properties": { "CAT": 45, "SURVEYNO": 145, "NAME": "Pancerzewski House", "HISTNAME": "Cattron House", "ADDRESS": "249 Cascade Ave" }, "geometry": { "type": "Point", "coordinates": [ -122.405876858855635, 48.039016624989607 ] } },
-{ "type": "Feature", "properties": { "CAT": 46, "SURVEYNO": 146, "NAME": null, "HISTNAME": "Father A.L Royer House", "ADDRESS": "107 DeBruyn Ave" }, "geometry": { "type": "Point", "coordinates": [ -122.415181137113905, 48.040820770704961 ] } },
-{ "type": "Feature", "properties": { "CAT": 47, "SURVEYNO": 147, "NAME": null, "HISTNAME": "DeBruyn House", "ADDRESS": "25 DeBruyn Ave" }, "geometry": { "type": "Point", "coordinates": [ -122.415514030747929, 48.04208517810892 ] } },
-{ "type": "Feature", "properties": { "CAT": 48, "SURVEYNO": 148, "NAME": "Laura Davenport House", "HISTNAME": null, "ADDRESS": "714 Decker Ave" }, "geometry": { "type": "Point", "coordinates": [ -122.396439434356651, 48.034291529981502 ] } },
-{ "type": "Feature", "properties": { "CAT": 49, "SURVEYNO": 149, "NAME": "Jesse Tapp House", "HISTNAME": null, "ADDRESS": "428 Edgecliff Dr" }, "geometry": { "type": "Point", "coordinates": [ -122.397782433589043, 48.035764544148122 ] } },
-{ "type": "Feature", "properties": { "CAT": 50, "SURVEYNO": 150, "NAME": null, "HISTNAME": "Marshall House", "ADDRESS": "637 Edgecliff Dr" }, "geometry": { "type": "Point", "coordinates": [ -122.39436167027786, 48.034277705642531 ] } },
-{ "type": "Feature", "properties": { "CAT": 51, "SURVEYNO": 151, "NAME": "Edgecliff Restaurant", "HISTNAME": null, "ADDRESS": "510 Cascade Ave" }, "geometry": { "type": "Point", "coordinates": [ -122.404525644893923, 48.037228730630638 ] } },
-{ "type": "Feature", "properties": { "CAT": 52, "SURVEYNO": 152, "NAME": "CMA Parsonage", "HISTNAME": null, "ADDRESS": "832 Saratoga Rd" }, "geometry": { "type": "Point", "coordinates": [ -122.417048144409137, 48.040433522063267 ] } },
-{ "type": "Feature", "properties": { "CAT": 53, "SURVEYNO": 153, "NAME": "CMA Church", "HISTNAME": null, "ADDRESS": "834 Saratoga Rd" }, "geometry": { "type": "Point", "coordinates": [ -122.417252568555313, 48.040308033221066 ] } },
-{ "type": "Feature", "properties": { "CAT": 54, "SURVEYNO": 154, "NAME": null, "HISTNAME": null, "ADDRESS": "847 Saratoga Rd" }, "geometry": { "type": "Point", "coordinates": [ -122.418997037880303, 48.038918251379812 ] } },
-{ "type": "Feature", "properties": { "CAT": 55, "SURVEYNO": 156, "NAME": "Izett House", "HISTNAME": "Polley House", "ADDRESS": "905 Dalton Ln" }, "geometry": { "type": "Point", "coordinates": [ -122.40500782157811, 48.031276401148915 ] } },
-{ "type": "Feature", "properties": { "CAT": 56, "SURVEYNO": 157, "NAME": "Langley City Hall", "HISTNAME": "Langley Masonic Temple", "ADDRESS": "112 Second St" }, "geometry": { "type": "Point", "coordinates": [ -122.406721515139807, 48.040110823216331 ] } },
-{ "type": "Feature", "properties": { "CAT": 57, "SURVEYNO": 158, "NAME": "Langley Library", "HISTNAME": null, "ADDRESS": "104 Second St" }, "geometry": { "type": "Point", "coordinates": [ -122.406398018364143, 48.040045240267666 ] } },
-{ "type": "Feature", "properties": { "CAT": 58, "SURVEYNO": 162, "NAME": null, "HISTNAME": "Spencer House", "ADDRESS": "121 Sixth St" }, "geometry": { "type": "Point", "coordinates": [ -122.406317440467063, 48.036173796509573 ] } }
-]
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "CAT": 1,
+        "SURVEYNO": 101,
+        "NAME": "LMS Classroom Bldg",
+        "HISTNAME": null,
+        "ADDRESS": "723 Camano Ave"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40297483387003,
+          48.03461159641438
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CAT": 2,
+        "SURVEYNO": 102,
+        "NAME": "LMS Library",
+        "HISTNAME": "Langley High School",
+        "ADDRESS": "723 Camano Ave"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40307815362321,
+          48.035200228105744
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CAT": 3,
+        "SURVEYNO": 103,
+        "NAME": "LMS Auditorium",
+        "HISTNAME": null,
+        "ADDRESS": "723 Camano Ave"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40310586625213,
+          48.03561187336848
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CAT": 4,
+        "SURVEYNO": 104,
+        "NAME": "LMS Spencer Building",
+        "HISTNAME": null,
+        "ADDRESS": "723 Camano Ave"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40362486781103,
+          48.03551457841487
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CAT": 5,
+        "SURVEYNO": 105,
+        "NAME": "LMS Gymnasium",
+        "HISTNAME": null,
+        "ADDRESS": "723 Camano Ave"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4035648969361,
+          48.03498534106153
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CAT": 6,
+        "SURVEYNO": 106,
+        "NAME": "Pole Building",
+        "HISTNAME": null,
+        "ADDRESS": "819 Camano Ave"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40267448808882,
+          48.032693547887
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CAT": 7,
+        "SURVEYNO": 107,
+        "NAME": "Nymbol's Secret Garden",
+        "HISTNAME": "Christian Science Church",
+        "ADDRESS": "101 First St"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40691142230972,
+          48.04027478078413
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CAT": 8,
+        "SURVEYNO": 108,
+        "NAME": "Village Pizzeria",
+        "HISTNAME": "Lee's Drug Store",
+        "ADDRESS": "106 First St"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40773674780364,
+          48.040776604441504
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CAT": 9,
+        "SURVEYNO": 109,
+        "NAME": "Island Design",
+        "HISTNAME": null,
+        "ADDRESS": "111 First St"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40786015189538,
+          48.040561565402
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CAT": 10,
+        "SURVEYNO": 110,
+        "NAME": "Cafe Langley",
+        "HISTNAME": "Tiemeyer Bakery",
+        "ADDRESS": "113 First St"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4079690644219,
+          48.04057774851469
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CAT": 11,
+        "SURVEYNO": 111,
+        "NAME": "Star Store/ Primavera Build",
+        "HISTNAME": null,
+        "ADDRESS": "201 First St"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40825338131785,
+          48.040632813549394
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CAT": 12,
+        "SURVEYNO": 112,
+        "NAME": "Moonraker/ Roberta",
+        "HISTNAME": null,
+        "ADDRESS": "207-209 First St"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40857222517263,
+          48.04063695202678
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CAT": 13,
+        "SURVEYNO": 113,
+        "NAME": "Heron",
+        "HISTNAME": null,
+        "ADDRESS": "211 First St"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40877021948917,
+          48.04062158798665
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CAT": 14,
+        "SURVEYNO": 114,
+        "NAME": "Mykins",
+        "HISTNAME": "Livery Stable",
+        "ADDRESS": "212-214 First St"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40862344814778,
+          48.04092513848057
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CAT": 15,
+        "SURVEYNO": 115,
+        "NAME": "Celtic Viking",
+        "HISTNAME": "Luhn Building",
+        "ADDRESS": "216 First St"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40874922446521,
+          48.040917023461716
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CAT": 16,
+        "SURVEYNO": 116,
+        "NAME": "Clyde Theater",
+        "HISTNAME": null,
+        "ADDRESS": "217 First St"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40901586031725,
+          48.04060711812259
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CAT": 17,
+        "SURVEYNO": 117,
+        "NAME": "Cascadia Nauticals",
+        "HISTNAME": null,
+        "ADDRESS": "220 First St"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40893840789794,
+          48.04102613800567
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CAT": 18,
+        "SURVEYNO": 118,
+        "NAME": "Dog House Tavern",
+        "HISTNAME": "Olympic Club",
+        "ADDRESS": "230 First St"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.409140586955,
+          48.041040294935335
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CAT": 19,
+        "SURVEYNO": 119,
+        "NAME": "In the Country",
+        "HISTNAME": "Niles Hous",
+        "ADDRESS": "315 First St"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4102113075941,
+          48.040659079687224
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CAT": 20,
+        "SURVEYNO": 120,
+        "NAME": "Lowey/ Sundquist House",
+        "HISTNAME": null,
+        "ADDRESS": "455 First St"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.41247332399323,
+          48.041074989515
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CAT": 21,
+        "SURVEYNO": 121,
+        "NAME": "Faith Bushby House",
+        "HISTNAME": "Howard House",
+        "ADDRESS": "475 First St"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.41192939257844,
+          48.0407100969861
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CAT": 22,
+        "SURVEYNO": 122,
+        "NAME": "Maine Stay",
+        "HISTNAME": "Howard House",
+        "ADDRESS": "619 First St"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.41345600240233,
+          48.04069598601607
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CAT": 23,
+        "SURVEYNO": 123,
+        "NAME": "AA House",
+        "HISTNAME": null,
+        "ADDRESS": "432 Second St"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.41198422224674,
+          48.04020368058183
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CAT": 24,
+        "SURVEYNO": 124,
+        "NAME": "Living Green",
+        "HISTNAME": "Burk's Lumber Yard",
+        "ADDRESS": "630 Second St"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.41464339368491,
+          48.04029972419349
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CAT": 25,
+        "SURVEYNO": 125,
+        "NAME": null,
+        "HISTNAME": "Ethel Manly House",
+        "ADDRESS": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.41776434320228,
+          48.03901573550369
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CAT": 26,
+        "SURVEYNO": 126,
+        "NAME": "Min Dexter House",
+        "HISTNAME": null,
+        "ADDRESS": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.41800439408908,
+          48.03800826726338
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CAT": 28,
+        "SURVEYNO": 128,
+        "NAME": null,
+        "HISTNAME": "Voelker House",
+        "ADDRESS": "715 Third St"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.41473017497258,
+          48.03893544442643
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CAT": 29,
+        "SURVEYNO": 129,
+        "NAME": "Dave Schmidt House",
+        "HISTNAME": null,
+        "ADDRESS": "834 Third St"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.41682836185612,
+          48.039393422559236
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CAT": 30,
+        "SURVEYNO": 130,
+        "NAME": null,
+        "HISTNAME": "Albert Melsen House",
+        "ADDRESS": "415 Fourth St"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.41041511798713,
+          48.03809890126211
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CAT": 31,
+        "SURVEYNO": 131,
+        "NAME": "Wahl House",
+        "HISTNAME": null,
+        "ADDRESS": "416 Fourth St"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4105005907625,
+          48.03850420900884
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CAT": 32,
+        "SURVEYNO": 132,
+        "NAME": "Re/ John Alsip House",
+        "HISTNAME": null,
+        "ADDRESS": "107 Sixth St"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40529581978895,
+          48.036299240959416
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CAT": 33,
+        "SURVEYNO": 133,
+        "NAME": "Country Cottage B&B",
+        "HISTNAME": "George Beane House",
+        "ADDRESS": "215 Sixth St"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40788565167476,
+          48.036175248730785
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CAT": 34,
+        "SURVEYNO": 134,
+        "NAME": "Fossek House",
+        "HISTNAME": "Lenz/ Fossek House",
+        "ADDRESS": "510 Sixth St"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.41393698825776,
+          48.037552274023945
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CAT": 35,
+        "SURVEYNO": 135,
+        "NAME": "Fossek Barn",
+        "HISTNAME": "Lenz/ Fossek Barn",
+        "ADDRESS": "431 Sixth St"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.41267579669305,
+          48.03543808450065
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CAT": 36,
+        "SURVEYNO": 136,
+        "NAME": "Al Anderson House",
+        "HISTNAME": null,
+        "ADDRESS": "305 Sixth St"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4100947528821,
+          48.03623419925983
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CAT": 37,
+        "SURVEYNO": 137,
+        "NAME": "Lowry-James",
+        "HISTNAME": "Langley State Bank",
+        "ADDRESS": "101 Anthes Ave"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40962337772748,
+          48.04069722302966
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CAT": 38,
+        "SURVEYNO": 138,
+        "NAME": "Whidbey Island Antiques",
+        "HISTNAME": null,
+        "ADDRESS": "105 Anthes Ave"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40964202451296,
+          48.04048885350486
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CAT": 39,
+        "SURVEYNO": 139,
+        "NAME": "Knitty Purls",
+        "HISTNAME": null,
+        "ADDRESS": "111 Anthes Ave"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40959546766737,
+          48.04036710222055
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CAT": 40,
+        "SURVEYNO": 140,
+        "NAME": "Joe's Island Music",
+        "HISTNAME": "Langley Town Hall",
+        "ADDRESS": "112 Anthes Ave"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40912915271873,
+          48.04035082177794
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CAT": 41,
+        "SURVEYNO": 141,
+        "NAME": null,
+        "HISTNAME": "Whidbey Island Antiques",
+        "ADDRESS": "115 Anthes Ave"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40961175494805,
+          48.04021653120214
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CAT": 42,
+        "SURVEYNO": 142,
+        "NAME": null,
+        "HISTNAME": "Funeral Home",
+        "ADDRESS": "207 Anthes Ave"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40961742410401,
+          48.03967490588489
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CAT": 43,
+        "SURVEYNO": 143,
+        "NAME": "Ben Breedlove House",
+        "HISTNAME": "Lovejoy House",
+        "ADDRESS": "402 Anthes Ave"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40933801615608,
+          48.038052690380965
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CAT": 44,
+        "SURVEYNO": 144,
+        "NAME": "Langley Methodist Church",
+        "HISTNAME": null,
+        "ADDRESS": "301 Anthes Ave"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40979964193144,
+          48.03895128475855
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CAT": 45,
+        "SURVEYNO": 145,
+        "NAME": "Pancerzewski House",
+        "HISTNAME": "Cattron House",
+        "ADDRESS": "249 Cascade Ave"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40587685885563,
+          48.03901662498961
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CAT": 46,
+        "SURVEYNO": 146,
+        "NAME": null,
+        "HISTNAME": "Father A.L Royer House",
+        "ADDRESS": "107 DeBruyn Ave"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4151811371139,
+          48.04082077070496
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CAT": 47,
+        "SURVEYNO": 147,
+        "NAME": null,
+        "HISTNAME": "DeBruyn House",
+        "ADDRESS": "25 DeBruyn Ave"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.41551403074793,
+          48.04208517810892
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CAT": 48,
+        "SURVEYNO": 148,
+        "NAME": "Laura Davenport House",
+        "HISTNAME": null,
+        "ADDRESS": "714 Decker Ave"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.39643943435665,
+          48.0342915299815
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CAT": 49,
+        "SURVEYNO": 149,
+        "NAME": "Jesse Tapp House",
+        "HISTNAME": null,
+        "ADDRESS": "428 Edgecliff Dr"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.39778243358904,
+          48.03576454414812
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CAT": 50,
+        "SURVEYNO": 150,
+        "NAME": null,
+        "HISTNAME": "Marshall House",
+        "ADDRESS": "637 Edgecliff Dr"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.39436167027786,
+          48.03427770564253
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CAT": 51,
+        "SURVEYNO": 151,
+        "NAME": "Edgecliff Restaurant",
+        "HISTNAME": null,
+        "ADDRESS": "510 Cascade Ave"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40452564489392,
+          48.03722873063064
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CAT": 52,
+        "SURVEYNO": 152,
+        "NAME": "CMA Parsonage",
+        "HISTNAME": null,
+        "ADDRESS": "832 Saratoga Rd"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.41704814440914,
+          48.04043352206327
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CAT": 53,
+        "SURVEYNO": 153,
+        "NAME": "CMA Church",
+        "HISTNAME": null,
+        "ADDRESS": "834 Saratoga Rd"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.41725256855531,
+          48.040308033221066
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CAT": 54,
+        "SURVEYNO": 154,
+        "NAME": null,
+        "HISTNAME": null,
+        "ADDRESS": "847 Saratoga Rd"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4189970378803,
+          48.03891825137981
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CAT": 55,
+        "SURVEYNO": 156,
+        "NAME": "Izett House",
+        "HISTNAME": "Polley House",
+        "ADDRESS": "905 Dalton Ln"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40500782157811,
+          48.031276401148915
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CAT": 56,
+        "SURVEYNO": 157,
+        "NAME": "Langley City Hall",
+        "HISTNAME": "Langley Masonic Temple",
+        "ADDRESS": "112 Second St"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40672151513981,
+          48.04011082321633
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CAT": 57,
+        "SURVEYNO": 158,
+        "NAME": "Langley Library",
+        "HISTNAME": null,
+        "ADDRESS": "104 Second St"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40639801836414,
+          48.040045240267666
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CAT": 58,
+        "SURVEYNO": 162,
+        "NAME": null,
+        "HISTNAME": "Spencer House",
+        "ADDRESS": "121 Sixth St"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40631744046706,
+          48.03617379650957
+        ]
+      }
+    }
+  ]
 }
