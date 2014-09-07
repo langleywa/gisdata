@@ -279,7 +279,7 @@
         "CAT": 17,
         "SURVEYNO": 117,
         "NAME": "Cascadia Nauticals",
-        "HISTNAME": null,
+        "HISTNAME": "test",
         "ADDRESS": "220 First St"
       },
       "geometry": {
